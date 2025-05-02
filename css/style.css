@@ -1,0 +1,74 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #111;
+}
+header {
+  background: #002855;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  background: linear-gradient(to right, #003f88, #005bbb);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.contenido {
+  padding: 3rem 2rem;
+}
+.grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  flex: 1 1 30%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.galeria {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.galeria img {
+  width: 30%;
+  border-radius: 8px;
+}
+.redes .iconos {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.redes img {
+  width: 32px;
+  height: 32px;
+}
+footer {
+  background: #002855;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
